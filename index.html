@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Raghu Raman - Senior Frontend Developer | React & JavaScript Expert</title>
+    <meta name="title" content="Raghu Raman - Senior Frontend Developer | React & JavaScript Expert">
+    <meta name="description" content="Experienced Frontend Developer with 8+ years specializing in React, JavaScript, and TypeScript. Creating responsive, performant web applications since 2016.">
+    <meta name="keywords" content="Frontend Developer, React Developer, JavaScript, TypeScript, Web Development, UI/UX, Portfolio">
+    <meta name="author" content="Raghu Raman">
+    <meta name="theme-color" content="#667eea">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Raghu Raman - Senior Frontend Developer">
+    <meta property="og:description" content="Experienced Frontend Developer with 8+ years specializing in React, JavaScript, and TypeScript.">
+    <meta property="og:image" content="https://yoursite.com/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Raghu Raman - Senior Frontend Developer">
+    <meta property="twitter:description" content="Experienced Frontend Developer with 8+ years specializing in React, JavaScript, and TypeScript.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles.css" />
+    
+    <!-- Scripts - deferred for performance -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+    <script src="./myjs.js" defer></script>
+</head>
+<body>
+    <!-- landing page -->
+    <section class="hero" role="banner">
+        <div class="hero-content">
+            <button aria-label="Scroll to about section to learn more about Raghu Raman">Hi, I am Raghuraman, Explore My Work</button>
+        </div>
+    </section>
+
+    <!-- navbar -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-brand" aria-label="Portfolio home">Raghu's Portfolio</div>
+            <ul class="nav-menu" role="menubar">
+                <li class="nav-item" role="none"><a href="#about" class="nav-link" role="menuitem" aria-label="Navigate to About section">About</a></li>
+                <li class="nav-item" role="none"><a href="#projects" class="nav-link" role="menuitem" aria-label="Navigate to Projects section">My Projects</a></li>
+                <li class="nav-item" role="none"><a href="#contact" class="nav-link" role="menuitem" aria-label="Navigate to Contact section">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- about me section with threejs animation -->
+    <section id="about" class="about-section" aria-labelledby="about-heading">
+        <canvas id="about-canvas" aria-hidden="true" role="presentation"></canvas>
+        <div class="about-container">
+            <h2 class="section-title" id="about-heading">About Me</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="about-role">Frontend Developer</h3>
+                    <p class="about-intro">
+                        I am a frontend developer who can understand people's thought process as a website and deliver them what they expected. 
+                        With <strong>8 years of professional experience</strong> (4 years in React, 4 years in JavaScript), I've been crafting 
+                        exceptional web experiences since 2016.
+                    </p>
+                    
+                    <p class="about-passion">
+                        My passion is to deliver lovely websites as expected by customers which perform well—focusing on 
+                        <strong>responsiveness</strong>. I have strong debugging skills, 
+                        so I love to solve problems and create seamless user experiences.
+                    </p>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">8+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2016</span>
+                            <span class="stat-label">Career Started</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">4</span>
+                            <span class="stat-label">Years in React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-container">
+                    <h3 class="skills-title">Technical Skills</h3>
+                    
+                    <div class="skills-category">
+                        <h4>Frontend Development</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h4>Backend & Tools</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h4>Core Competencies</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag highlight">Responsive Design</span>
+                            <span class="skill-tag highlight">Debugging</span>
+                            <span class="skill-tag highlight">Problem Solving</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">My Projects</h2>
+        
+        <article class="project">
+            <h3>Medium Website Clone</h3>
+            <p><strong>Tech Stack:</strong> Laravel, PHP, MySQL, Bootstrap</p>
+            <p><strong>Description:</strong> A blogging platform inspired by Medium with user authentication, article publishing, and commenting system.</p>
+            <ul>
+                <li>User authentication and profiles</li>
+                <li>Rich text editor for articles</li>
+                <li>Comments and likes system</li>
+                <li>Responsive design</li>
+            </ul>
+        </article>
+
+        <article class="project">
+            <h3>Real-Time Collaboration Tool</h3>
+            <p><strong>Tech Stack:</strong> React, TypeScript, WebSockets, Redux Toolkit</p>
+            <p><strong>Description:</strong> A Google Docs-like collaborative document editor with real-time synchronization.</p>
+            <ul>
+                <li>Live document editing with multiple users</li>
+                <li>Real-time cursor tracking and presence indicators</li>
+                <li>Integrated chat functionality</li>
+                <li>Conflict resolution and version history</li>
+            </ul>
+        </article>
+
+        <article class="project">
+            <h3>E-Commerce Platform with Admin Dashboard</h3>
+            <p><strong>Tech Stack:</strong> React, Next.js, Stripe, Redux, Tailwind CSS</p>
+            <p><strong>Description:</strong> Full-featured online store with payment processing and comprehensive admin panel.</p>
+            <ul>
+                <li>Product catalog with search and filters</li>
+                <li>Shopping cart and secure checkout with Stripe</li>
+                <li>Order management and tracking</li>
+                <li>Admin dashboard with sales analytics</li>
+            </ul>
+        </article>
+
+        <article class="project">
+            <h3>Design System & Component Library</h3>
+            <p><strong>Tech Stack:</strong> React, TypeScript, Storybook, Rollup, Vite</p>
+            <p><strong>Description:</strong> Production-ready component library with comprehensive documentation and theming support.</p>
+            <ul>
+                <li>50+ reusable UI components</li>
+                <li>Full TypeScript support and type definitions</li>
+                <li>Interactive documentation with Storybook</li>
+                <li>Accessibility compliance (WCAG 2.1)</li>
+                <li>Dark mode and custom theming</li>
+            </ul>
+        </article>
+
+        <article class="project">
+            <h3>Project Management Tool</h3>
+            <p><strong>Tech Stack:</strong> React, TypeScript, DnD Kit, React Hook Form</p>
+            <p><strong>Description:</strong> Trello/Jira-inspired task management system with drag-and-drop functionality.</p>
+            <ul>
+                <li>Drag-and-drop boards and cards</li>
+                <li>Sprint planning and backlog management</li>
+                <li>Task assignments and due dates</li>
+                <li>Team collaboration features</li>
+                <li>Progress tracking and reporting</li>
+            </ul>
+        </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+        <div class="contact-container">
+            <h2 class="section-title" id="contact-heading">Get In Touch</h2>
+            <p class="contact-subtitle">Let's discuss your next project or opportunity</p>
+            
+            <div class="contact-content">
+                <div class="contact-info" role="complementary" aria-label="Contact information">
+                    <div class="contact-item">
+                        <div class="contact-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:sraghuraman143@gmail.com" aria-label="Send email to sraghuraman143@gmail.com">sraghuraman143@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <a href="tel:+919597119234" aria-label="Call +91 9597119234">+91 9597119234</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/raghu-raman-74657656/" target="_blank" rel="noopener noreferrer" aria-label="Visit Raghu Raman's LinkedIn profile (opens in new tab)">linkedin.com/in/raghu-raman</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm" novalidate aria-label="Contact form">
+                        <h3>Send Me a Message</h3>
+                        
+                        <div class="form-group">
+                            <label for="name">Your Name <span aria-label="required">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required aria-required="true" aria-describedby="name-error">
+                            <span class="error-message" id="name-error" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-email">Your Email <span aria-label="required">*</span></label>
+                            <input type="email" id="contact-email" name="email" placeholder="john@example.com" required aria-required="true" aria-describedby="email-error">
+                            <span class="error-message" id="email-error" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject <span aria-label="required">*</span></label>
+                            <input type="text" id="subject" name="subject" placeholder="Project Discussion" required aria-required="true" aria-describedby="subject-error">
+                            <span class="error-message" id="subject-error" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message <span aria-label="required">*</span></label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity..." required aria-required="true" aria-describedby="message-error"></textarea>
+                            <span class="error-message" id="message-error" role="alert"></span>
+                        </div>
+
+                        <button type="submit" class="submit-btn" aria-label="Submit contact form">
+                            <span class="btn-text">Send Message</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                        <div class="form-status" role="status" aria-live="polite" aria-atomic="true"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Raghu Raman. All rights reserved.</p>
+            <p>Frontend Developer | React Specialist</p>
+        </div>
+    </footer>
+</body>
+</html>
