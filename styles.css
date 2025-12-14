@@ -28,7 +28,7 @@ button:focus-visible {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background: url('./revive-waianapanapa-state-park.webp') center center / cover no-repeat;
+    background: url('./revive-waianapanapa-state-park_111711.webp') center center / cover no-repeat;
     background-color: #4A90A4;
 }
 
@@ -862,4 +862,5 @@ button:focus-visible {
     .contact-section {
         padding: 3rem 1rem;
     }
+
 }
